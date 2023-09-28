@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
+
+:root {
+  --border: 2px solid;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  line-height: 1.5;
+}
+
+.container {
+  width: 95%;
+  height: 85%;
+  display: flex;
+  margin: 20px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 1000%;
+}
+
+.right {
+  display: flex;
+  align-self: stretch;
+}
+
+.top {
+  display: flex;
+  height: 50%;
+  flex-basis: 50%;
+}
+.bottom {
+  display: flex;
+  height: 50%;
+}
+
+#card1 {
+  background-color: #7541c8;
+  background-image: url("/images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  color: white;
+  flex-basis: 300%;
+  box-shadow: 0 9px 20px 4px rgba(0, 0, 0, 0.3);
+  overflow: scroll;
+}
+#card2 {
+  background-color: #48556a;
+  color: white;
+  box-shadow: 0 9px 20px 4px rgba(0, 0, 0, 0.3);
+}
+#card3 {
+  flex-basis: 250%;
+  box-shadow: 0 9px 20px 4px rgba(0, 0, 0, 0.3);
+}
+#card4 {
+  background-color: #19212e;
+  color: white;
+  box-shadow: 0 9px 20px 4px rgba(0, 0, 0, 0.3);
+  overflow: scroll;
+}
+#card5 {
+  box-shadow: 0 9px 20px 4px rgba(0, 0, 0, 0.3);
+}
+
+.elems {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding: 20px;
+}
+
+.xyp {
+  display: flex;
+  flex-direction: row;
+}
+
+.imgz {
+  border-radius: 50%;
+  border: 1px solid white;
+  width: 50px;
+  height: 10%;
+}
+
+.cr {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  position: relative;
+  bottom: 11px;
+  font-weight: 500;
+}
+
+#j {
+  opacity: 0.6;
+}
+
+@media (max-width: 958px) {
+  .container {
+    flex-direction: column;
+    margin: 0;
+    justify-content: space-around;
+    height: 20vh;
+    margin-top: 800px;
+  }
+
+  .left {
+    margin-bottom: 20px;
+    flex-basis: 20%;
+  }
+
+  .right {
+    flex-direction: column;
+  }
+
+  .top {
+    flex-direction: column;
+  }
+
+  .bottom {
+    flex-direction: column;
+  }
+  .elems {
+    margin-right: 0;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+
+  #card1 {
+    width: 100%;
+    overflow: visible;
+  }
+
+  #card2 {
+    margin-bottom: 154px;
+  }
+
+  #card3 {
+    width: 100%;
+  }
+
+  #card4 {
+    overflow: visible;
+  }
+
+  #card5 {
+    margin-top: -18px;
+  }
+}
+
+@media (max-width: 368px) {
+  .container {
+    margin-top: 120vh;
+  }
+
+  .elems {
+    padding: 20px;
+  }
+}
