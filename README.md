@@ -2,4 +2,4 @@
 
 ![Design preview for the Testimonials grid section coding challenge](./design/desktop-preview.jpg)
 
-[Link to the CSS challenge](https://kavin5kumar.github.io/CSS-Practice-card/)
+[Link to the CSS challenge]([https://kavin5kumar.github.io/CSS-Practice-card/](https://kavin5kumar.github.io/CSS-FlexBox-Practice/)https://kavin5kumar.github.io/CSS-FlexBox-Practice/)
